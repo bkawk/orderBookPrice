@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  list-style: none;
+  quotes: none;
+  font-style: normal;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html, body, #shell {
+  background: #ebeced;
+  overflow-y: scroll;
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  color: #373d48;
+  font-family: "Hanken Grotesk","Helvetica Neue",sans-serif;
+  height: 100%;
+
+  .loading {
+    height: 10px;
+  }
+  .layout-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin: 50px auto;
+    width: 800px;
+    position: relative;
+    background-color: white;
+    border: 1px solid #DADADA;
+    border-radius: 8px;
+
+    hr {
+      display: block;
+      height: 40px;
+    }
+      .data-grid span{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 2fr;
+        border-bottom: 1px solid #DADADA;
+        padding: 6px;
+      }
+      .data-grid span.Buy{
+        color: #70A802;
+      }
+      .data-grid span.Sell{
+        color: #FB2179;
+      }
+      .data-grid-totals span{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border-bottom: 1px solid #DADADA;
+        padding: 6px;
+      }
+
+      .layout-title {
+        border-bottom: 1px solid #DADADA;
+        font-weight: 800;
+        padding: 0 17px;
+        color: #4b4f5d;
+        font-size: 15px;
+        line-height: 48px;
+      }
+      .section-grid {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-gap: 12px;
+        border-bottom: 1px solid #DADADA;
+        padding: 17px 17px 27px 17px;
+
+      small {
+        display: block;
+        line-height: 18px;
+        color: #9da1ab;
+        padding: 9px 0 0;
+        margin: 0 0 -2px 0;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      button {
+        line-height: 31px;
+        height: 33px;
+        margin-left: 6px;
+        vertical-align: middle;
+        box-shadow: none;
+        font-size: 13px;
+        color: #fff;
+        border-color: #1e7efc;
+        background: #1e7efc;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 0 13px;
+        text-align: center;
+        width: 150px;
+        cursor: pointer;
+      }
+
+      label {
+        display: block;
+        font-size: 13px;
+        color: #393d4d;
+        font-weight: bold;
+        padding: 17px 0 7px;
+      }
+
+      input {
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        -moz-appearance: none;
+        vertical-align: middle;
+        padding: 10px 12px;
+        line-height: 19px;
+        border-radius: 5px;
+        font-size: 14px;
+        background: #EBECED;
+        color: #393D4D;
+        box-sizing: border-box;
+        font-weight: 500;
+        resize: none;
+      }
+
+      select {
+        width: 100%;
+        margin-right: 6px;
+        -webkit-appearance: none;
+        appearance: none;
+        -moz-appearance: none;
+        vertical-align: middle;
+        padding: 10px 12px;
+        line-height: 19px;
+        border-radius: 5px;
+        font-size: 14px;
+        background: #EBECED;
+        color: #393D4D;
+        box-sizing: border-box;
+        font-weight: 500;
+        resize: none;
+        background: url(../images/chevron-down.svg) #EBECED no-repeat calc(100% - 12px) 50%;
+        -webkit-padding-end: 30px;
+      }
+      .fullname-grid {
+        display: grid;
+        grid-template-columns: 4fr 1fr 3fr;
+        grid-column-gap: 12px
+      }
+      .dob-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-column-gap: 12px
+      }
+      .phone-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 12px
+      }
+      .doc-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 12px
+      }
+      .btn-grid {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-column-gap: 12px
+      }
+    }
+  }
+}
+
+

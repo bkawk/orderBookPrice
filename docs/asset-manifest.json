@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/orderBookPrice/static/css/main.b4d5a548.chunk.css",
+    "main.js": "/orderBookPrice/static/js/main.de162c09.chunk.js",
+    "main.js.map": "/orderBookPrice/static/js/main.de162c09.chunk.js.map",
+    "runtime~main.js": "/orderBookPrice/static/js/runtime~main.09fed052.js",
+    "runtime~main.js.map": "/orderBookPrice/static/js/runtime~main.09fed052.js.map",
+    "static/js/2.e38e2731.chunk.js": "/orderBookPrice/static/js/2.e38e2731.chunk.js",
+    "static/js/2.e38e2731.chunk.js.map": "/orderBookPrice/static/js/2.e38e2731.chunk.js.map",
+    "index.html": "/orderBookPrice/index.html",
+    "precache-manifest.41a922fe253da59a75cbe97b60789bd0.js": "/orderBookPrice/precache-manifest.41a922fe253da59a75cbe97b60789bd0.js",
+    "service-worker.js": "/orderBookPrice/service-worker.js",
+    "static/css/main.b4d5a548.chunk.css.map": "/orderBookPrice/static/css/main.b4d5a548.chunk.css.map",
+    "static/media/index.scss": "/orderBookPrice/static/media/chevron-down.6d833f1e.svg",
+    "static/media/loading.svg": "/orderBookPrice/static/media/loading.6a19979e.svg"
+  }
+}
